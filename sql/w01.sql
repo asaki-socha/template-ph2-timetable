@@ -2,7 +2,7 @@
 -- 書いた SQL は教材サイトの「SQL練習場」で実行し、表示が index.html の区画と一致することを確かめてから書くこと
 -- 曜日（day）は数字のまま返してよい
 
--- 区画1：月曜日の授業（時限の早い順）
+-- 区画1：月曜日の授業（時限の早い順） POSSE 
  SELECT period AS 時限, name AS 授業名, teacher AS 担当教員, room AS 教室
 FROM courses
 WHERE day = 1
